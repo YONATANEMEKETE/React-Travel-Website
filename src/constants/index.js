@@ -61,16 +61,19 @@ export const heroImgs = [
 
 export const populars = [
   {
+    id: 1,
     title: 'Logan Mountaine',
     region: 'Canada',
     imageUrl: popular1,
   },
   {
+    id: 2,
     title: 'Spike Forest',
     region: 'Ireland',
     imageUrl: popular2,
   },
   {
+    id: 3,
     title: 'Garda Lake',
     region: 'Italy',
     imageUrl: popular3,

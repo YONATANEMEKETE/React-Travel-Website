@@ -14,8 +14,14 @@ const Hero = () => {
       />
       <div className="shadow absolute top-0 left-0 w-full h-3/4 bg-gradient-to-b from-n-1/0 to-n-1"></div>
 
-      <Section className="bg-fixed relative pb-5">
-        <Heading topH="Welcome to Travel" head1="Explore" head2="The World" />
+      <Section className="bg-fixed relative">
+        <Heading
+          topH="Welcome to Travel"
+          head1="Explore"
+          head2="The World"
+          classes="max-w-[22rem] lg:max-w-[33rem] lg:text-start lg:ml-0"
+          className="text-[3rem] lg:text-[6rem] lg:ml-0"
+        />
         <p
           className="text-n-2 font-first text-base lg:text-lg  max-w-[24rem] 
         lg:max-w-[30rem] mx-auto lg:ml-0 text-center lg:text-start mb-8"
