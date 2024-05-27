@@ -19,8 +19,8 @@ const Hero = () => {
           topH="Welcome to Travel"
           head1="Explore"
           head2="The World"
-          classes="max-w-[22rem] lg:max-w-[33rem] lg:text-start lg:ml-0"
-          className="text-[3rem] lg:text-[6rem] lg:ml-0"
+          classes="max-w-[22rem] lg:max-w-[33rem] lg:text-start lg:ml-0 grid lg:justify-start justify-center "
+          className="text-[3rem] lg:text-[6rem] lg:mx-0"
         />
         <p
           className="text-n-2 font-first text-base lg:text-lg  max-w-[24rem] 

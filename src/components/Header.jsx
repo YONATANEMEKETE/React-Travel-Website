@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className=" fixed top-0 left-0 w-full bg-transparent  z-10">
-      <div className="flex items-center justify-between max-w-[1112px] lg:mx-auto px-5 lg:px-7.5 xl:px-10 py-4 lg:py-8">
+      <div className="flex items-center justify-between max-w-[1112px] lg:mx-auto px-5 lg:px-7.5 py-4 lg:py-8">
         <a className="block text-xl font-bold font-first" href="#home">
           TRAVEL
         </a>
