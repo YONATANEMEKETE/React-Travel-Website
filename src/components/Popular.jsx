@@ -5,7 +5,7 @@ import { FiMapPin } from 'react-icons/fi';
 
 const Popular = () => {
   return (
-    <Section className="pt-12 lg:pt-32 mb-6">
+    <Section className="pt-12 lg:pt-32 mb-6" id="popular">
       <Heading
         head1="Enjoy The Beauty"
         head2="Off The World"

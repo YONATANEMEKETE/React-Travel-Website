@@ -10,18 +10,12 @@
   --second-font: 'Montserrat', sans-serif;
 }
 
-@layer base {
-  body {
-    @apply font-sans bg-n-1 text-n-2 text-base box-border;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-.content::after {
-  content: '';
-  width: 50%;
-  height: 2px;
-  background-color: #fff;
-  position: absolute;
-  top: 25px;
-  left: 0;
+@layer base {
+  body {
+    @apply font-sans bg-n-1 text-n-2 text-base box-border scroll-smooth;
+  }
 }

@@ -5,7 +5,7 @@ import Section from './Section';
 
 const About = () => {
   return (
-    <Section className="pt-14">
+    <Section className="pt-14" id="about">
       <div
         className=" max-w-[768px] lg:max-w-[1024px] mx-auto 
       flex items-center justify-center flex-col md:flex-row md:gap-6 lg:gap-20"

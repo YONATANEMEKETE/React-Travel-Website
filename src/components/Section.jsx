@@ -1,9 +1,9 @@
 import Heading from './Heading';
 
-const Section = ({ children, className, imageUrl }) => {
+const Section = ({ children, className, imageUrl, id }) => {
   return (
     <>
-      <div>
+      <div id={id}>
         <div
           className={`max-w-[1112px] ${
             className || ''

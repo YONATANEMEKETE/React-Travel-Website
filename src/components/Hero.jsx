@@ -14,7 +14,7 @@ const Hero = () => {
       />
       <div className="shadow absolute top-0 left-0 w-full h-3/4 bg-gradient-to-b from-n-1/0 to-n-1"></div>
 
-      <Section className="bg-fixed relative">
+      <Section className="bg-fixed relative" id="home">
         <Heading
           topH="Welcome to Travel"
           head1="Explore"

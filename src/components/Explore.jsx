@@ -14,7 +14,7 @@ const Explore = () => {
         <div className="absolute bottom-0 left-0 w-full h-1/4 bg-gradient-to-b from-n-1/0 to-n-1/100"></div>
       </div>
 
-      <Section className="relative lg:pt-[18rem]">
+      <Section className="relative lg:pt-[18rem]" id="explore">
         <div className="flex items-center lg:items-end flex-col lg:flex-row justify-between gap-12 h-max w-max lg:w-full mx-auto">
           <div className="">
             <Heading

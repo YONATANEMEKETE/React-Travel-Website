@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { navigation } from '../constants';
 import { IoClose } from 'react-icons/io5';
@@ -6,6 +6,20 @@ import { RiMenu3Fill } from 'react-icons/ri';
 
 const Header = () => {
   const [openNav, setopenNav] = useState(false);
+  const [blur, setBlur] = useState(false);
+
+  useEffect(() => {
+    const handleBlur = () => {
+      window.pageYOffset > 50 ? setBlur(true) : setBlur(false);
+      console.log(blur);
+    };
+
+    window.addEventListener('scroll', handleBlur);
+
+    return () => {
+      window.removeEventListener('scroll', handleBlur);
+    };
+  }, [blur]);
 
   const handleOpen = () => {
     setopenNav(true);
@@ -16,7 +30,11 @@ const Header = () => {
   };
 
   return (
-    <div className=" fixed top-0 left-0 w-full bg-transparent  z-10">
+    <div
+      className={`${
+        blur ? 'backdrop-blur-md' : ''
+      } fixed top-0 left-0 w-full bg-transparent  z-10`}
+    >
       <div className="flex items-center justify-between max-w-[1112px] lg:mx-auto px-5 lg:px-7.5 py-4 lg:py-8">
         <a className="block text-xl font-bold font-first" href="#home">
           TRAVEL
